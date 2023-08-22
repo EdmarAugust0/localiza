@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 1em;
+}
+
+.direita {
+    display: flex;
+}
+
+.casinha,
+.ajuda {
+    cursor: pointer;
+}
+
+.ajuda {
+    margin-right: 1em;
+}
+
+.voltar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2em;
+}
+
+.link-voltar {
+    text-decoration: none;
+    color: rgb(101, 233, 39);
+    border-bottom: 1px solid rgb(101, 233, 39);
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.formDados {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.titulo1{
+    margin-bottom: 16px;
+} 
+
+.titulo2 {
+    margin-bottom: 12px;
+}
+
+.input {
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 8px;
+    outline-color: rgb(101, 233, 39);
+}
+
+.radio {
+    margin: 8px 0 8px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.input-radio {
+    margin-right: 7px--;
+}
+
+.foot {
+    width: 80%;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid rgb(101, 233, 39);
+    border-radius: 9px;
+    background-color: rgb(101, 233, 39);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(89, 206, 35);
+}

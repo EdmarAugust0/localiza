@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Cadastro de gestor</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="esquerda">
+                <img class="casinha" href="#" src="./home-icon-silhouette_69524.png" alt="casinha">
+            </div>
+            <div class="direita">
+                <img class="ajuda" href="#" src="./help_5763730.png" alt="ajuda">
+                <p><b>Edmar Agusto</b><br> Supervisor Irrestrito</p>
+            </div>
+        </div>
+        <div class="voltar">
+            <a class="link-voltar" href="#">Voltar para a página inicial.</a>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="titulo1">Cadastro do Gestor</h1>
+            <h2 class="titulo2">Favor informar os dados abaixo:</h2>
+            <form class="formDados">
+                <input class="input" type="text" placeholder="Nome completo" required>
+                <input class="input" type="number" placeholder="CPF" required>
+                <input class="input" type="email" placeholder="E-mail" required>
+                <input class="input" type="tel" placeholder="Telefone celular" required>
+                <input class="input" type="tel" placeholder="Telefone fixo (Opcional)">
+                <input class="input" type="number" placeholder="CNPJ" required>
+
+                <div class="radio">
+                    <div class="div1">
+                        <input class="input-radio" type="radio" id="completo" name="escolha" required>
+                        <label for="completo">Completo</label>
+                    </div>
+
+                    <div class="div2">
+                        <input class="input-radio" type="radio" id="ap-visu" name="escolha" required>
+                        <label for="ap-visu">Apenas visualização</label>
+                    </div>
+                    
+                    <div class="div3">
+                        <input class="input-radio" type="radio" id="ap-not" name="escolha" 
+                        required>
+                        <label for="ap-not">Apenas notificação</label>
+                    </div>
+                </div>
+
+                <button class="btn" type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
