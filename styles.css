@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #d3d3d3;
+}
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -12,6 +16,10 @@
 
 .direita {
     display: flex;
+}
+
+.casinha {
+    width: 37px;
 }
 
 .casinha,
@@ -31,8 +39,8 @@
 
 .link-voltar {
     text-decoration: none;
-    color: rgb(101, 233, 39);
-    border-bottom: 1px solid rgb(101, 233, 39);
+    color: rgb(94, 206, 42);
+    border-bottom: 1px solid rgb(94, 206, 42);
 }
 
 .container {
@@ -40,6 +48,10 @@
     max-width: 640px;
     width: 100%;
     flex-direction: column;
+    background-color: #ffffffd8;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 10px;
 }
 
 .formDados {
