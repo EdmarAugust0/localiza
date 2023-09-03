@@ -26,12 +26,12 @@
             <h1 class="titulo1">Cadastro do Gestor</h1>
             <h2 class="titulo2">Favor informar os dados abaixo:</h2>
             <form class="formDados">
-                <input class="input" type="text" placeholder="Nome completo" required>
-                <input class="input" type="number" placeholder="CPF" required>
-                <input class="input" type="email" placeholder="E-mail" required>
-                <input class="input" type="tel" placeholder="Telefone celular" required>
-                <input class="input" type="tel" placeholder="Telefone fixo (Opcional)">
-                <input class="input" type="number" placeholder="CNPJ" required>
+                <input class="input" type="text" placeholder="Nome completo" id="nome" required>
+                <input class="input" type="number" placeholder="CPF" id="CPF" required>
+                <input class="input" type="email" placeholder="E-mail" id="email" required>
+                <input class="input" type="tel" placeholder="Telefone celular" id="telc" required>
+                <input class="input" type="tel" placeholder="Telefone fixo" id="telf" required>
+                <input class="input" type="number" placeholder="CNPJ" id="CNPJ" required>
 
                 <div class="tipo">
                     <h3>Tipo de acesso</h3>
@@ -54,9 +54,10 @@
                     </div>
                 </div>
 
-                <button class="btn" type="submit">Cadastrar</button>
+                <button class="btn" type="submit" id="exportarArquivo">Cadastrar</button>
             </form>
         </div>
     </main>
+    <script src="./main.js"></script>
 </body>
 </html>
